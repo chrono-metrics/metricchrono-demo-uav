@@ -1,0 +1,6 @@
+metric_name,baseline_value,mc_value,units,notes
+alignment_error_ms_p50,27.122176,23.92576,ms,
+alignment_error_ms_p95,55.097984,52.923904,ms,
+alignment_error_ms_p99,75.04023039999997,63.74833919999998,ms,
+reconverge_time_s,,,s,rolling p95 <= 20ms for 10s
+bandwidth_overhead_pct,0.0,0.46972350757039416,%,MC exchange bytes / payload bytes

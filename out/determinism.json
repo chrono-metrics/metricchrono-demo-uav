@@ -1,0 +1,55 @@
+{
+  "hashes_first": {
+    "alignment_pairs.csv": "7c30f1f5d19b6cc276c65fdc0c6b1b553be01ba033232b2bfc422d694126ca0a",
+    "alignment_worst.csv": "c8fca88b9755c74603d0c8df8c3bafcc0e28474b1680af75f2c5d3423a943899",
+    "drift_header_vs_arrival.csv": "b5d0674e7315d7da1f9b2af245695c71d03bc587c8df0a8fa8d926b55fbbca04",
+    "drift_obs_vs_arrival_diagnostic.csv": "4c5470e3500745e7481867e3a593b8c1291096dcb3d25ae05cbb937ff4e11119",
+    "gaps_sampling.csv": "8e5cec633c4c0af05d41b484dd8a695cbf2aa0061a0853900e715deb66ac8028",
+    "gaps_sampling_worst.csv": "6a6077da4b613a8613483e006e1ecbbc8636f467b09c922f6128c6a2764f6df4",
+    "gaps_transport.csv": "f819d5d42432b8820c8195eb3b62e48b7ef3817d0a950aa614cd5098dc185b81",
+    "gaps_transport_worst.csv": "cf587e77196b98251327239d9bb43cc4889eb5d6522a697b7f9a5064dca9ee29",
+    "out_of_order.csv": "e13fa8d01db0b01de31160c10771ee3425659171d4ad29d756608f2516dc73c4",
+    "out_of_order_worst.csv": "6ef29860bd5769ab9e35ca0d94735bdc1e1d1603b7ea5271148c5ba111c53727",
+    "reconverge.csv": "19ffffd359443bec40d9e4345329408d445b151f1d43b39bab0030c63f6d0140",
+    "topic_inventory.csv": "309679e91780d34a6ec81ab1959a739c2cd1be5403bc2d8f26219a1a6d36bfe3"
+  },
+  "hashes_second": {
+    "alignment_pairs.csv": "7c30f1f5d19b6cc276c65fdc0c6b1b553be01ba033232b2bfc422d694126ca0a",
+    "alignment_worst.csv": "c8fca88b9755c74603d0c8df8c3bafcc0e28474b1680af75f2c5d3423a943899",
+    "drift_header_vs_arrival.csv": "b5d0674e7315d7da1f9b2af245695c71d03bc587c8df0a8fa8d926b55fbbca04",
+    "drift_obs_vs_arrival_diagnostic.csv": "4c5470e3500745e7481867e3a593b8c1291096dcb3d25ae05cbb937ff4e11119",
+    "gaps_sampling.csv": "8e5cec633c4c0af05d41b484dd8a695cbf2aa0061a0853900e715deb66ac8028",
+    "gaps_sampling_worst.csv": "6a6077da4b613a8613483e006e1ecbbc8636f467b09c922f6128c6a2764f6df4",
+    "gaps_transport.csv": "f819d5d42432b8820c8195eb3b62e48b7ef3817d0a950aa614cd5098dc185b81",
+    "gaps_transport_worst.csv": "cf587e77196b98251327239d9bb43cc4889eb5d6522a697b7f9a5064dca9ee29",
+    "out_of_order.csv": "e13fa8d01db0b01de31160c10771ee3425659171d4ad29d756608f2516dc73c4",
+    "out_of_order_worst.csv": "6ef29860bd5769ab9e35ca0d94735bdc1e1d1603b7ea5271148c5ba111c53727",
+    "reconverge.csv": "19ffffd359443bec40d9e4345329408d445b151f1d43b39bab0030c63f6d0140",
+    "topic_inventory.csv": "309679e91780d34a6ec81ab1959a739c2cd1be5403bc2d8f26219a1a6d36bfe3"
+  },
+  "hash_match": {
+    "alignment_pairs.csv": true,
+    "alignment_worst.csv": true,
+    "drift_header_vs_arrival.csv": true,
+    "drift_obs_vs_arrival_diagnostic.csv": true,
+    "gaps_sampling.csv": true,
+    "gaps_sampling_worst.csv": true,
+    "gaps_transport.csv": true,
+    "gaps_transport_worst.csv": true,
+    "out_of_order.csv": true,
+    "out_of_order_worst.csv": true,
+    "reconverge.csv": true,
+    "topic_inventory.csv": true
+  },
+  "shuffle": {
+    "bin_ns": 200000000,
+    "out_of_order_changed": true,
+    "sampling_gaps_stable": true,
+    "drift_stable": false,
+    "alignment_stable": false,
+    "out_of_order_delta": 251456839.67999864,
+    "sampling_gap_delta": 0.0,
+    "drift_delta": 28.796937974640002,
+    "alignment_delta": 100739481.60000002
+  }
+}

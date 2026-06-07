@@ -1,0 +1,27 @@
+metricchrono-demo-uav
+Copyright 2026 Chrono-Metrics (Adam Braun)
+
+Code in this repository is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+----------------------------------------------------------------------
+Data (data/events_impaired_circle.parquet, data/metrics_table.csv,
+data/meeting_summary.csv)
+----------------------------------------------------------------------
+Derived from the public dataset:
+
+  "Heterogeneous UAV dataset for relative localization and cooperative flight"
+  Václav Pritzl, Matouš Vrba, Petr Štěpán, Martin Saska (CTU-MRS), 2023.
+  arXiv:2306.17544 — https://arxiv.org/abs/2306.17544
+
+The data/ files contain (a) derived timing metadata for the recorded events and
+(b) the OUTPUT of the MetricChrono engine on that public recording (corrected
+timestamps and alignment errors). They do NOT contain the original dataset's raw
+sensor payloads (images, point clouds). Synthetic impairment is seeded (424242).
+
+Chrono-Metrics claims NO copyright over the underlying CTU-MRS recording; the derived
+metadata and corrections are released for free reuse. If you redistribute, honor the
+upstream CTU-MRS dataset's terms and cite arXiv:2306.17544. See DATA-LICENSE.md.
+
+The MetricChrono engine that produced the corrections is proprietary and is NOT
+included in this repository. The Apache-2.0 open core (the comparator/ladder
+primitive) is at https://github.com/chrono-metrics/metricchrono.

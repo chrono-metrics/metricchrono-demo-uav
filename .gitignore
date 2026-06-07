@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Generated run outputs — ship only the hero figure + the determinism proof as samples
+out/*
+!out/hero_alignment.png
+!out/determinism.json
+
+# NEVER commit internal review / working material
+_review*
+_rereview*
+_publish*
+_PUBLISH*
+*_BRIEF.md
+_REVIEW_*
+_REREVIEW_*
